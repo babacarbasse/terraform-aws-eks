@@ -1,0 +1,28 @@
+# aws credentials config
+aws_provider_shared_credentials_file =
+aws_provider_profile =
+
+# aws region and availability zones
+aws-region =
+availability-zones =
+
+# k8s cluster specs
+cluster-name =
+k8s-version =
+kublet-extra-args =
+public-kublet-extra-args =
+
+# vpc config
+vpc-subnet-cidr =
+private-subnet-cidr =
+public-subnet-cidr =
+db-subnet-cidr =
+
+# k8s nodes specs
+eks-cw-logging =
+node-instance-type =
+root-block-size =
+desired-capacity =
+max-size =
+min-size =
+ec2-key-public-key =
